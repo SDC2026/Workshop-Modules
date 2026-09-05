@@ -1,0 +1,5 @@
+Easy: Perform CRUD(Create, read, update, delete) operations on Lists, Tuples, Sets
+Medium : 1. Find the largest and smallest element in a list.
+         2. Find the sum and average of elements in a list.
+         3. Count how many times a given number appears in a list.
+         4. Perform CRUD operations on Dictionary
