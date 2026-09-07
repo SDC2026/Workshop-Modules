@@ -1,0 +1,7 @@
+1. Find the second largest number in a list using single loop
+
+2. Two Sum
+    You're given a list of numbers and a target number. Find two numbers in the list that add up to the target, and return their positions (indices).
+    nums = [2, 7, 11, 15], target = 9
+    Since 2 + 7 = 9, the answer is [0, 1] (their positions in the list).
+        Rule: You can't use the same number twice, and there's always exactly one correct pair.
