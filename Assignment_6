@@ -1,0 +1,3 @@
+1. Design a class Student that stores marks in a list. Add a method add_mark() that raises a custom InvalidMarkError if the mark isn't between 0–100. Catch it where marks are being added in bulk from a list, skipping invalid ones and logging which failed.
+
+2. Implement a Stack class with push()/pop(). Raise a custom StackEmptyError on popping from an empty stack and a custom StackOverflowError (custom, not the built-in) when pushing beyond a fixed capacity. Write test code that deliberately triggers both and handles them with separate except blocks.
