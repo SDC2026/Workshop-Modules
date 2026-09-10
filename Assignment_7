@@ -1,0 +1,15 @@
+1. Create a table using:
+    PRIMARY KEY
+    FOREIGN KEY
+    NOT NULL
+    UNIQUE
+    DEFAULT
+    CHECK
+
+2. Employees Earning More Than Their Managers
+    Table: Employee(id, name, salary, managerId)
+    Find employees who earn more than their manager.
+
+3. Consecutive Numbers
+    Table: Logs(id, num)
+    Find all numbers that appear at least 3 times consecutively (by id order).
