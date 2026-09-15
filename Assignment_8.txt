@@ -1,0 +1,31 @@
+1.  Canteen Menu + Category Filter
+        Create a menu containing at least 15 food items.
+        Each item should have id, name, category, price, and availability.
+        Create categories such as Breakfast, Lunch, Snacks, Beverages.
+        User selects a category.
+        Flask receives the request and displays only matching items.
+        Use Jinja to render the menu dynamically.
+        Show "Currently Unavailable" for unavailable items.
+
+2. Order Summary Page — After the user submits an order, don't immediately display only "Order successful".
+Instead generate an order summary:
+
+----------- ORDER SUMMARY -----------
+
+Student: Harshitha
+USN: 123
+Order ID: 1045
+
+Item                 Qty       Price
+-------------------------------------
+Masala Dosa           2        ₹100
+Coffee                1        ₹20
+
+Total Items: 3
+Grand Total: ₹120
+
+Pickup Time: 1:00 PM
+Status: Confirmed
+
+
+The Summary must be generated dynamically using Flask + Jinja Templates 
