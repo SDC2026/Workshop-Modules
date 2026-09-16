@@ -1,0 +1,22 @@
+College Bookstore & Stationery Pre-Order System
+Build a Flask web application that lets students browse and pre-order books, stationery, and accessories from the college store, while the store admin manages stock and orders.
+
+>  Student-facing side:
+>  Home page introducing the store
+>  Catalog page listing items grouped into categories (Books, Stationery, Accessories) — each item shows name, price, and stock status (In Stock / Low Stock / Sold Out)
+>  Search bar to find items by name
+>  Cart page — add/remove items, see quantities and a running total
+>  Checkout — place the order with a pickup time slot; no login, track the student by session
+>  Optional coupon code field at checkout that applies a discount if valid
+>  "My Orders" page showing the current session's order history and status
+
+
+Admin side (separate section, not visible to students):
+>  View all orders with their status (Pending / Packed / Delivered) and update it
+>  See total orders and total revenue
+>  See the top-selling items
+>  Mark an item sold out or update its stock count
+
+Expected behaviour:
+One consistent layout and navigation across all pages
+Sensible messages for edge cases — empty cart, no search results, out-of-stock item, invalid coupon
